@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triange Fun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pagewrap">
+        <nav class="navbar" id="myTopnav">
+            <ul class="lists">
+                <li>
+                    <a href="./index.html" class="link logo">Do You Know Triangle?</a>
+                </li>
+                <li><a class="link active" href="#">Is Triangle</a></li>
+                <li><a class="link" href="./Quiz/quiz.html">Quiz</a></li>
+                <li><a class="link" href="./Hypotenus/hypotenus.html">Hypotenuse</a></li>
+                <li><a class="link" href="./Area/area.html">Area</a></li>
+            </ul>
+        </nav>
+
+        <div class="is-triangle">
+            <h1>Is Triangle?</h1>
+            <p>Enter the three angles of a triangle, we will tell whether it forms a triangle or not?</p>
+            <label for="angleFirst">First angle</label><br>
+            <input class="input-field" id="angleFirst" type="number">
+            <br><br>
+            <label for="angleSecond">Second angle</label><br>
+            <input class="input-field" id="angleSecond" type="number">
+            <br><br>
+            <label for="angleThird">Third angle</label><br>
+            <input class="input-field" id="angleThird" type="number">
+            <br>
+            <button class="btn">Check</button>
+
+            <div class="output">
+                <p class="opt">Oops! this would not make a triangle.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz On Triangle</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="pagewrap">
+        <nav class="navbar" id="myTopnav">
+            <ul class="lists">
+                <li>
+                    <a href="../index.html" class="link logo">Triangle Fun</a>
+                </li>
+                <li><a class="link" href="../index.html">Is Triangle</a></li>
+                <li><a class="link active" href="#">Quiz</a></li>
+                <li><a class="link" href="../Hypotenus/hypotenus.html">Hypotenuse</a></li>
+                <li><a class="link" href="../Area/area.html">Area</a></li>
+            </ul>
+        </nav>
+
+        <div class="quiz-main"> 
+            <div>
+                <h1>Triangle Quiz</h1>
+                <p>For each correct answer you will get a +1 point.</p>
+            </div>
+            <form class="quiz-form">
+                <div class="question-container">
+                    <p>1. If a triangle has 2 sides with equal lengths and 60 angle between them. What is the type of triangle?</p>
+                    <label><input class ="option" name="question1" type="radio" value="Equilateral">Equilateral</label>
+                    <label><input name="question1" type="radio" value="Isosceles">Isosceles</label>
+                    <label><input name="question1" type="radio" value="Both">Both</label>
+                </div>
+                <div class="question-container">
+                    <p>2. If a triangle has angles 35, 120, 25. Is it an obtuse triangle?</p>
+                    <label><input name="question2" type="radio" value="Yes">Yes</label>
+                    <label><input name="question2" type="radio" value="No">No</label>
+                </div>
+                <div class="question-container">
+                    <p>3. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</p>
+                    <label><input name="question3" type="radio" value="Equilateral">Equilateral</label>
+                    <label><input name="question3" type="radio" value="Isosceles">Isosceles</label>
+                    <label><input name="question3" type="radio" value="Scalene">Scalene</label>
+                </div>
+            </form>
+        </div>
+        <div style="text-align: center;">
+            <button id="submit-answer-btn" class="btn">Submit</button>
+        </div>
+        <div class="output">
+            <p style="text-align: center; margin: 2rem 0.5rem;" class="opt"></p>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

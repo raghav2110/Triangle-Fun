@@ -6,4 +6,4 @@ It is a Vanilla JS based web app where you have following functionality:
 3. Calculate Hypotenus 
 4. Calculate Area of Triangle
 
-Try the app : 
+Try the app : https://triangle-fun.vercel.app/
